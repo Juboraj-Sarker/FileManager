@@ -1,0 +1,45 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.MainActivity">
+
+    <item
+        android:id="@+id/searchView"
+        android:title="@string/search"
+        android:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.widget.SearchView"
+        />
+
+    <item
+        android:id="@+id/newFolder"
+        android:title="@string/action_create_newFolder"
+        android:showAsAction="never"/>
+
+    <item
+        android:id="@+id/list_view"
+        android:title="List View"
+        android:orderInCategory="1"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/grid_view"
+        android:title="Grid View"
+        android:orderInCategory="2"
+        app:showAsAction="never" />
+
+    <item
+    android:id="@+id/action_settings"
+    android:title="@string/preferences"
+    android:orderInCategory="3"
+    app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/action_back"
+        android:title="back"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_keyboard_backspace" />
+
+
+</menu>
